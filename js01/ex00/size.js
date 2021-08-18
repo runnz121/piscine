@@ -19,9 +19,6 @@ function addList()  {
     const document_w = document.documentElement.clientWidth;
     const documentswindow = `Document: ${document_w} * ${document_h}`;
 
-
-
-
     const liscreen1 = document.createElement("li");
     const liscreen2 = document.createElement("li");
     const liscreen3 = document.createElement("li");
@@ -47,17 +44,12 @@ function addList()  {
     ulnew2[0].appendChild(liscreen3);  
     ulnew3[0].appendChild(liscreen4);  
 
-
-    
     const datelement = document.createElement("time");
     const datetime = document.createTextNode(time);
     datelement.appendChild(datetime);
     const dates = document.getElementsByTagName('time');
-    dates[0].setAttribute("datetime", "toISOString");
+    dates[0].setAttribute("datetime", Date());
     dates[0].appendChild(datelement);
-  
 
-
- 
   }
   addList();

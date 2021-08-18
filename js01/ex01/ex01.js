@@ -11,7 +11,7 @@ function tag () {
     let coos = coding.setAttribute("value", "60");
     let hungs = hungry.setAttribute("value", "40");
     let loves = love.setAttribute("value", "70");
-    let eners = energy.setAttribute("value", "30");
+    let eners = energy.setAttribute("value", "20");
     let wahs = wash.setAttribute("value", "80");
 
      let interval = 5;

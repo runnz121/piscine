@@ -17,7 +17,6 @@ function dates(){
 dates();
 
 
-
 function pro(){
     const pro = document.getElementById('pro').value;
     document.getElementById("fir").innerText = '상품명: ' + pro;
